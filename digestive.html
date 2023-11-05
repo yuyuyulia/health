@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>消化系統</title>
+    <style>
+        /* 標頭 */
+        h1 {
+            text-align: center;
+        }
+        
+        /* 導覽列 */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin-right: 20px; /* 調整間距 */
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* 連結卡片 */
+        .health-link {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .health-link a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px; /* 調整圖片寬度 */
+            height: 100px; /* 調整圖片高度 */
+            margin: 10px;
+            background-color: lightgray; /* 替代圖片的灰色背景 */
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+
+    <title>橫排導覽列</title>
+    <style>
+        /* 你的 CSS 代碼 */
+        /* ... */
+
+        /* 設定網頁背景顏色 */
+        body {
+            background-color: #eaf5f4; 
+            border: 8px solid #ccc;
+            margin: 5px; 
+            padding: 5px;
+        }
+
+        /* 其他 CSS 樣式保持不變 */
+        /* ... */
+    </style>
+
+</head>
+<body>
+    <h1>消化系統</h1> <!-- 大標題 -->
+
+    <title>網頁菜單</title>
+    <style>
+        .menu li a {
+            font-size: 25px; /* 調整字體大小 */
+            color: #333; /* 預設字體顏色 */
+            text-decoration: none;
+            transition: transform 0.3s; /* 使放大變化更平滑 */
+            display: inline-block;
+        }
+
+        .menu li a:hover {
+            transform: scale(1.2); /* 鼠標滑過時放大 1.2 倍 */
+            color: #FF0000; /* 鼠標滑過時的字體顏色 */
+        }
+    </style>
+
+<style>
+    .menu li {
+        margin-right: 50px; /* 調整連結間的空格 */
+    }
+</style>
+
+    <ul class="menu">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="aboutus.html">關於我們</a></li>
+        <li><a href="contactus.html">聯絡我們</a></li>
+        <li><a href="new.html">最新消息</a></li>
+    </ul>
+
+<script>
+    function search() {
+        // Get the entered keyword from the input field
+        var keyword = document.getElementById("searchInput").value;
+
+        // Retrieve all text content within the page
+        var pageContent = document.body.innerText;
+
+        // Use a regular expression to find and replace the keyword with the same keyword wrapped in a span tag with a different color
+        var coloredContent = pageContent.replace(new RegExp(keyword, "g"), `<span style="color: red">${keyword}</span>`);
+
+        // Update the body's HTML with the modified content
+        document.body.innerHTML = coloredContent;
+    }
+</script>
+
+<ul>
+    <!-- Search function -->
+    <section class="search">
+        <input type="text" id="searchInput" placeholder="請輸入關鍵字">
+        <button onclick="search()">搜尋</button>
+    </section>
+</ul>
+
+ <title>消化系統</title>
+    <style>
+        h3 {
+            color: #064f4b; 
+            font-size: 25px; 
+            transition: color 0.3s; 
+        }
+        p {
+            color: #076863; 
+            font-size: 20px; 
+            transition: color 0.3s; 
+        }
+        h2 {
+            color: #ff0000; 
+            font-size: 20px; 
+            transition: color 0.3s; 
+    </style>
+
+ <title>跑馬燈</title>
+    <style>
+        .marquee {
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .marquee p {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 30s linear infinite;
+            color: #FF0000; /* 調整文字顏色 */
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            100% {
+                transform: translate(-100%, 0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="marquee">
+        <p>消化系統是由多細胞生物來負責與幫助人類消化食物。
+而消化道是跟人類口腔到肛門的地方，裡面是負責處理食物溶解的構造組成。當消化系統不好的時候可能會出現腹部疼痛的情況，使令人感到煩躁。其實消化不好有很多原因，現代社會都講求效率要快、節奏也要很快的生活步調，很多時候常常都會忙到忘記吃東西或者暴飲暴食，而情緒上感到壓力大或焦躁不安的心情時，這些就會造成消化不良及長期下來就會有胃部問題開始發生。</p>
+    </div>
+
+<h3>1. 消化不良會有什麼疾病發生？</h3>
+<p>
+   消化系統共包含了食道、胃、小腸、大腸、肝臟、膽囊、胰臟和脾臟。這些器官都是幫助我們食物的流動及消化分解食物，讓人體產生代謝與吸收能量。如果消化系統不良在長時間都不處理的話可能會造成一些疾病。
+</p>
+
+<p>
+    1. 胃炎它會有腹部疼痛、嘔吐酸水、腹部漲等情況，發生胃炎的原因其實有很多，但其中一個可能是消化不良所導致的問題，不過也可能會因為壓力大、細菌侵入等可能性而發生胃炎。
+</p>
+
+<p>
+    2. 胃食道逆流
+其實這是代表胃酸逆流，可能會導致胸口悶、灼熱及咳嗽等。不過這是可以避免的。在睡前30分鐘儘量不要吃東西和一些油膩、太甜的食物等之類的就可以有效控制疾病發生。
+</p>
+
+<p>
+    3. 大腸問題
+症狀有便秘或拉肚子，如果是腸躁症患者可能會很常便秘與腹瀉。若是本來排便的時候很順暢，突然出現血便或其他等，可能會是大腸癌。
+</p>
+
+<h3>2. 要怎麼調整消化系統</h3>
+<p>
+   其實在生活中，有很多食品及水果是可以改善我們的消化不太好的情況，以下是有4種食品可以改善！
+</p>
+
+<p>
+   1. 奇異果:綠色的奇異果內有包含獼猴桃鹼， 它是一種蛋白質分解酵素，可有助消化肉類食物。市面上也有黃色的奇異果，但是它本身的獼猴桃鹼相較於綠色奇異果來說是比較少的，所以會建議吃綠色的奇異果。
+</p>
+
+<p>
+    2. 鳳梨:鳳梨酵素也是屬於蛋白質分解酵素，它經常在製作肉類料理時，用作軟化肉質的食材，不過鳳梨酵素是沒辦法承受高溫的，大約在60度鳳梨酵素就會被整個破壞，所以可在用完餐之後在適量的攝取會比較好，可以幫助消化肉類。
+</p>
+
+<p>
+    3.葡萄:葡萄本身有消化酶，它可以讓我們的消化功能順暢，避免發生不順暢而造成消化不良。
+</p>
+
+<p>
+    4.橄欖油:補充健康的油脂可以幫助於滋潤消化道，並且提供良好保護力，因此可適當補充植物油。
+</p>
+
+<h2>除了以上食品及水果，其實也可以適當補充益生菌，這樣就可以幫助消化系統的好菌增加，可以讓腸胃更健康！</h2>
+
+</body>
+</html>

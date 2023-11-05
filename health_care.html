@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>健康保健</title>
+    <style>
+        /* 標頭 */
+        h1 {
+            text-align: center;
+        }
+        
+        /* 導覽列 */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin-right: 20px; /* 調整間距 */
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* 連結卡片 */
+        .health-link {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .health-link a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px; /* 調整圖片寬度 */
+            height: 100px; /* 調整圖片高度 */
+            margin: 10px;
+            background-color: lightgray; /* 替代圖片的灰色背景 */
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+
+    <title>橫排導覽列</title>
+    <style>
+        /* 你的 CSS 代碼 */
+        /* ... */
+
+        /* 設定網頁背景顏色 */
+        body {
+            background-color: #eaf5f4; 
+            border: 8px solid #ccc;
+            margin: 5px; 
+            padding: 5px;
+        }
+
+        /* 其他 CSS 樣式保持不變 */
+        /* ... */
+    </style>
+
+</head>
+<body>
+    <h1>健康保健</h1> <!-- 大標題 -->
+
+    <title>網頁菜單</title>
+    <style>
+        .menu li a {
+            font-size: 25px; /* 調整字體大小 */
+            color: #333; /* 預設字體顏色 */
+            text-decoration: none;
+            transition: transform 0.3s; /* 使放大變化更平滑 */
+            display: inline-block;
+        }
+
+        .menu li a:hover {
+            transform: scale(1.2); /* 鼠標滑過時放大 1.2 倍 */
+            color: #FF0000; /* 鼠標滑過時的字體顏色 */
+        }
+    </style>
+
+<style>
+    .menu li {
+        margin-right: 50px; /* 調整連結間的空格 */
+    }
+</style>
+
+    <ul class="menu">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="aboutus.html">關於我們</a></li>
+        <li><a href="contactus.html">聯絡我們</a></li>
+        <li><a href="new.html">最新消息</a></li>
+    </ul>
+ 
+<script>
+    function search() {
+        // Get the entered keyword from the input field
+        var keyword = document.getElementById("searchInput").value;
+
+        // Retrieve all text content within the page
+        var pageContent = document.body.innerText;
+
+        // Use a regular expression to find and replace the keyword with the same keyword wrapped in a span tag with a different color
+        var coloredContent = pageContent.replace(new RegExp(keyword, "g"), `<span style="color: red">${keyword}</span>`);
+
+        // Update the body's HTML with the modified content
+        document.body.innerHTML = coloredContent;
+    }
+</script>
+
+<ul>
+    <!-- Search function -->
+    <section class="search">
+        <input type="text" id="searchInput" placeholder="請輸入關鍵字">
+        <button onclick="search()">搜尋</button>
+    </section>
+</ul>
+
+<title>健康保健</title>
+    <style>
+        h3 {
+            color: #064f4b; 
+            font-size: 25px; 
+            transition: color 0.3s; 
+        }
+        p {
+            color: #076863; 
+            font-size: 20px; 
+            transition: color 0.3s; 
+        }
+        h2 {
+            color: #ff0000; 
+            font-size: 20px; 
+            transition: color 0.3s; 
+    </style>
+
+ <title>跑馬燈</title>
+    <style>
+        .marquee {
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .marquee p {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 30s linear infinite;
+            color: #FF0000; /* 調整文字顏色 */
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            100% {
+                transform: translate(-100%, 0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="marquee">
+        <p>每個人在不同的人生階段中，都要讓身體吸收足夠的營養來維持身體健康，而人體需要的營養素去維持健康有分七大類：碳水化合物(五穀雜糧)、蛋白質、脂肪、礦物質、維生素、纖維素、水，健康均衡的飲食可以使身體正常運作，有助於對抗疾病。健康並非只有身體上的健康，心靈上的健康也是不能被忽略的。</p>
+    </div>
+
+<h3>想要保持健康不單是飲食層面要注意，我認為心靈健康、擁有良好且正常的作息也很重要，以下舉出這三類來說明：</h3>
+
+ <p>1.良好的飲食習慣:現代人喜歡常常吃油炸、碳烤、煙燻食品，以及會有睡前3小時進食的習慣、每日飲水量不足2000c.c、有交際應酬喝酒習慣、吃飯速度過快、飲食偏重口味，這些都是非常不好的飲食習慣。</p>
+ <p>2.維持心靈健康:我們生活的每一天都會有來自內在與外來的壓力，有時候可能會因為外來的刺激或反應而影響自己，若面對壓力無法自己消化，久而久之可能會變成憂鬱症或是其他疾病的出現，進而造成身體免疫方面的影響。</p>
+ <p>3.正常的作息:早睡對於現代人來說是一件困難的事情，可能是因為課業或是工作的壓力造成失眠、睡不好，也有可能是因為3C產品使用上癮，熬夜使睡眠不足容易出現頭昏腦脹、注意力無法集中、記憶力衰退的現象，對於身體也是非常不好的影響。</p>
+
+<h3>維持健康保健的改善方法</h3>
+
+<p>1.三餐以全榖為主食提供身體適當的熱量，可以幫助維持血糖，保護肌肉與內臟器官的組織蛋白質，並且多選用高纖維食物，促進腸道的生理健康，還可幫助血糖與血脂的控制。少油、少鹽、少糖並多攝食鈣質豐富的食物，且多喝開水。</p>
+
+<p>2.平常要找一些能抒發心情、消除壓力的方式，例如運動、聽音樂、到戶外走走，將自己的注意力專注在放鬆上，避免時時刻刻處在壓力的環境下，調適好心情也能讓心靈保持健康。</p>
+
+<p>3.每天7~9小時充足睡眠，能讓身體有足夠的時間修復，皮膚也較不容易出現皺紋，減少黑眼圈的形成。盡量維持原本生理時鐘的穩定性，不要日夜顛倒。</p>
+
+</body>
+</html>

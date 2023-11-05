@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>橫排導覽列</title>
+    <style>
+        /* 導覽列的 CSS */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin-right: 20px; /* 調整間距 */
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* 內容置中 */
+        body {
+            text-align: center;
+        }
+
+        .nav-items {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        .nav-items li {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-around; /* 這會在每個成員之間產生一些間距 */
+            align-items: center; /* 這會垂直置中成員內容 */
+            flex-wrap: wrap;
+        }
+
+        .member {
+            text-align: center;
+            margin: 10px; /* 這會在成員之間產生一些間距 */
+        }
+    </style>
+
+    <title>橫排導覽列</title>
+    <style>
+        /* 你的 CSS 代碼 */
+        /* ... */
+
+        /* 設定網頁背景顏色 */
+        body {
+             background-color: #eaf5f4; 
+            border: 8px solid #ccc;
+            margin: 5px; 
+            padding: 5px;
+            line-height: 2;
+        }
+
+        /* 其他 CSS 樣式保持不變 */
+        /* ... */
+    </style>
+</head>
+
+<body>
+    <h1>健康網站</h1> <!-- 大標題 -->
+
+<title>網頁菜單</title>
+    <style>
+        .menu li a {
+            font-size: 25px; /* 調整字體大小 */
+            color: #333; /* 預設字體顏色 */
+            text-decoration: none;
+            transition: transform 0.3s; /* 使放大變化更平滑 */
+            display: inline-block;
+        }
+
+        .menu li a:hover {
+            transform: scale(1.2); /* 鼠標滑過時放大 1.2 倍 */
+            color: #FF0000; /* 鼠標滑過時的字體顏色 */
+        }
+    </style>
+
+<style>
+    .nav-items {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: center; /* 将项目水平居中 */
+    }
+
+    .nav-items li {
+        margin: 30px; /* 增大项目之间的间隙 */
+        text-align: center;
+    }
+
+    .nav-items li a {
+        display: block; /* 将a元素转换为块级元素 */
+        transition: transform 0.3s; /* 动画效果 */
+    }
+
+    .nav-items li a:hover {
+        transform: scale(1.5); /* 鼠标悬停时放大图像 */
+    }
+</style>
+
+<style>
+    .menu li {
+        margin-right: 50px; /* 調整連結間的空格 */
+    }
+</style>
+
+    <ul class="menu">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="aboutus.html">關於我們</a></li>
+        <li><a href="contactus.html">聯絡我們</a></li>
+        <li><a href="new.html">最新消息</a></li>
+    </ul>
+
+<script>
+    function search() {
+        // Get the entered keyword from the input field
+        var keyword = document.getElementById("searchInput").value;
+
+        // Retrieve all text content within the page
+        var pageContent = document.body.innerText;
+
+        // Use a regular expression to find and replace the keyword with the same keyword wrapped in a span tag with a different color
+        var coloredContent = pageContent.replace(new RegExp(keyword, "g"), `<span style="color: red">${keyword}</span>`);
+
+        // Update the body's HTML with the modified content
+        document.body.innerHTML = coloredContent;
+    }
+</script>
+
+<ul>
+    <!-- Search function -->
+    <section class="search">
+        <input type="text" id="searchInput" placeholder="請輸入關鍵字">
+        <button onclick="search()">搜尋</button>
+    </section>
+</ul>
+
+           <style>
+    .nav-items {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .nav-items li {
+        margin: 10px;
+        text-align: center;
+    }
+</style>
+
+<style>
+    .nav-items li a {
+        display: block; /* 将a元素转换为块级元素 */
+        transition: transform 0.3s; /* 动画效果 */
+    }
+
+    .nav-items li a:hover {
+        transform: scale(1.5); /* 鼠标悬停时放大图像 */
+    }
+</style>
+
+<nav>
+    <ul class="nav-items">
+        <li>
+            <a href="healthpage.html">
+                <img src="C:\Users\user\Desktop\網頁\images\飲食.jpg" width="170">
+                <p>飲食健康</p>
+            </a>
+        </li>
+
+        <li>
+            <a href="digestive.html">
+                <img src="C:\Users\user\Desktop\網頁\images\消化.jpg" width="170">
+                <p>消化系統</p>
+            </a>
+        </li>
+
+            <li>
+    <a href="sports.html">
+        <img src="C:\Users\user\Desktop\網頁\images\sports.jpg"  width="170">
+        <p>運動健康</p>
+    </a>
+</li>
+
+            <li>
+    <a href="chronic.html">
+        <img src="images\慢性疾病.jpg"  width="170">
+        <p>慢性疾病</p>
+    </a>
+</li>
+
+            <li>
+    <a href="degenerative_arthritis.html">
+        <img src="C:\Users\user\Desktop\網頁\images\關節.jpg"  width="170">
+        <p>退化性關節炎</p>
+    </a>
+</li>
+
+            <li>
+    <a href="health_care.html">
+        <img src="C:\Users\user\Desktop\網頁\images\健康保健.jpg"  width="170">
+        <p>健康保健</p>
+    </a>
+</li>
+           
+            <li>
+    <a href="endocrine_disorders.html">
+        <img src="C:\Users\user\Desktop\網頁\images\內分泌.jpg"  width="170">
+        <p>內分泌失調</p>
+    </a>
+</li>
+
+            <li>
+    <a href="food_safety.html">
+        <img src="C:\Users\user\Desktop\網頁\images\食品安全.jpg"  width="170">
+        <p>食品安全</p>
+    </a>
+</li>
+
+            <li>
+    <a href="mental_health.html">
+        <img src="C:\Users\user\Desktop\網頁\images\心理.jpg"  width="170">
+        <p>心理健康</p>
+    </a>
+</li>
+
+            <li>
+    <a href="autonomic_nervous_system_disorder.html">
+        <img src="C:\Users\user\Desktop\網頁\images\自律神經失調.jpg"  width="170">
+        <p>自律神經失調</p>
+    </a>
+</li>
+        </ul>
+    </nav>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>健康生活包括</title>
+    <style>
+        body {
+            text-align: left;
+        }
+        h2, h3, p, ul {
+            text-align: left;
+        }
+        h2, h3 {
+            color: #064f4b;
+        }
+        p {
+            color: #076863;
+        }
+    </style>
+</head>
+<body>
+
+<h2>健康生活包括</h2>
+
+<h3>實行健康飲食</h3>
+<p>健康飲食是健康的基礎。每類食物提供身體所需的各種營養素都不同。我們進食時應按照「健康飲食金字塔」的建議比例進食，并每天喝6-8杯流質飲品（包括清水、清湯等），以促進身體健康。</p>
+
+<h3>恆常運動</h3>
+<p>兒童及青少年每天應合共做不少於一小時中等至劇烈程度的體能活動。</p>
+
+<p>
+    <strong>恆常運動的好處：</strong>
+</p>
+
+<p>1. 增強心肺功能</p>
+<p>2. 促進血液循環</p>
+<p>3. 舒展身心，舒緩精神壓力</p>
+<p>4. 消耗身體過多的熱量，控制體重</p>
+<p>5. 預防骨質疏鬆</p>
+
+<h3>保持個人衞生</h3>
+<p>
+    每天早晚刷牙、洗澡及更換衣服、頭髮保持整齊清潔，飯前、如廁後要洗手、經常修剪指甲等。
+</p>
+
+<p>
+    <strong>生活常規：</strong>
+</p>
+
+<p>作息定時，生活有序，一家歡聚，睡眠充足</p>
+
+<h3>心理健康</h3>
+<p>
+    每個人都是獨特的，各有優點缺點。應學習接納自己，學會關心及諒解別人。
+</p>
+
+<p>
+    <strong>方法：</strong>
+</p>
+
+<p>與人分享 - 和他人分享生活中的點滴</p>
+<p>正面思維 - 保持開放思想讓自己易於接受新事物</p>
+<p>享受生活 - 參與和享受你感興趣的活動，然後培養它們成為你的嗜好</p>
+
+<h3>拒絕煙酒與危害精神毒品</h3>
+<p>
+    這些不良習慣不但會嚴重損害身體健康，更會令人成癮。因此，要潔身自愛，抗拒誘惑，毫不猶豫地說聲 'NO'！
+</p>
+</body>
+</html>
+
+ <style>
+    .team-members {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center; 
+    }
+
+    .member {
+        text-align: center;
+        margin: 10px; 
+    }
+</style>
+
+    <!-- 在這裡可以添加 JavaScript 文件 -->
+
+</body>
+</html>

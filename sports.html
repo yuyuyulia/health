@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>運動健康</title>
+    <style>
+        /* 標頭 */
+        h1 {
+            text-align: center;
+        }
+        
+        /* 導覽列 */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin-right: 20px; /* 調整間距 */
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* 連結卡片 */
+        .health-link {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .health-link a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px; /* 調整圖片寬度 */
+            height: 100px; /* 調整圖片高度 */
+            margin: 10px;
+            background-color: lightgray; /* 替代圖片的灰色背景 */
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+
+    <title>橫排導覽列</title>
+    <style>
+        /* 你的 CSS 代碼 */
+        /* ... */
+
+        /* 設定網頁背景顏色 */
+        body {
+            background-color: #eaf5f4; 
+            border: 8px solid #ccc;
+            margin: 5px; 
+            padding: 5px;
+        }
+
+        /* 其他 CSS 樣式保持不變 */
+        /* ... */
+    </style>
+
+</head>
+<body>
+    <h1>運動健康</h1> <!-- 大標題 -->
+
+    <title>網頁菜單</title>
+    <style>
+        .menu li a {
+            font-size: 25px; /* 調整字體大小 */
+            color: #333; /* 預設字體顏色 */
+            text-decoration: none;
+            transition: transform 0.3s; /* 使放大變化更平滑 */
+            display: inline-block;
+        }
+
+        .menu li a:hover {
+            transform: scale(1.2); /* 鼠標滑過時放大 1.2 倍 */
+            color: #FF0000; /* 鼠標滑過時的字體顏色 */
+        }
+    </style>
+<style>
+    .menu li {
+        margin-right: 50px; /* 調整連結間的空格 */
+    }
+</style>
+
+    <ul class="menu">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="aboutus.html">關於我們</a></li>
+        <li><a href="contactus.html">聯絡我們</a></li>
+        <li><a href="new.html">最新消息</a></li>
+    </ul>
+
+<script>
+    function search() {
+        // Get the entered keyword from the input field
+        var keyword = document.getElementById("searchInput").value;
+
+        // Retrieve all text content within the page
+        var pageContent = document.body.innerText;
+
+        // Use a regular expression to find and replace the keyword with the same keyword wrapped in a span tag with a different color
+        var coloredContent = pageContent.replace(new RegExp(keyword, "g"), `<span style="color: red">${keyword}</span>`);
+
+        // Update the body's HTML with the modified content
+        document.body.innerHTML = coloredContent;
+    }
+</script>
+
+<ul>
+    <!-- Search function -->
+    <section class="search">
+        <input type="text" id="searchInput" placeholder="請輸入關鍵字">
+        <button onclick="search()">搜尋</button>
+    </section>
+</ul>
+
+ <title>運動健康</title>
+    <style>
+        h3 {
+            color: #064f4b; 
+            font-size: 25px; 
+            transition: color 0.3s; 
+        }
+        p {
+            color: #076863; 
+            font-size: 20px; 
+            transition: color 0.3s; 
+        }
+        h2 {
+            color: #ff0000; 
+            font-size: 20px; 
+            transition: color 0.3s; 
+    </style>
+
+ <title>跑馬燈</title>
+    <style>
+        .marquee {
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .marquee p {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 30s linear infinite;
+            color: #FF0000; /* 調整文字顏色 */
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            100% {
+                transform: translate(-100%, 0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="marquee">
+        <p>在這生活當中，人人都久坐在辦公室不動或是正在吃著不健康的美食炸物，卻忘記了運動的重要性。如果都不運動的話可能會引起肥胖症，併發動脈硬化、高血壓、心臟冠狀動脈阻塞及糖尿病等，這些疾病將會嚴重影響之後的生活，所以我們應該要去運動，換回自己健康的身體。</p>
+    </div>
+
+<h3>運動的好處</h3>
+
+ <p>1.讓身體更健康:運動可以增加身體代謝、增強免疫力，比較不容易感冒，還能延緩生理機能衰退。運動也可以預防失智症，當人類的年齡開始增長變老的時候，人體內的海馬迴就會開始萎縮退化，這時我們的記憶力就會下降，並提高罹患失智症的機率。但是運動是可以有益活化腦力，讓海馬迴增厚進而延緩失智症狀。除了可以預防失智症，運動更可以降低血糖、高血壓，減少心血管疾病的發生。</p>
+ <p>2.提升學習與工作效率:現在大家都處在高壓社會，人人都被壓力喘不過氣，腦袋的氧氣一直被耗盡，若是大腦供血量和供氧量不足，理解能力、專注力、記憶力...等智力思考的能力就會下降。其實運動是一個非常好的舒壓方式，尤其有氧運動可改善血液循環、提高血液含氧量，則可有效提升學習與工作的表現與效率。</p>
+ <p>3.可增加肌肉量與身體線條:現在也開了很多健身房，想運動的時候也可以去健身房練重訓並增加自己的肌肉量，現代的人也開始注重自己的外表，如果自己身上的肌肉量和線條很多，就會看起來很瘦很健美，穿衣服會看起來更有精神。</p>
+ <p>4. 讓自己更有自信、更正向:運動除了可以讓身體線條變得更好看之外，其實也可以讓自己增加自信心，因為運動讓自己提升了自身的效率，也擁有了許多成就感，因此這樣也會帶來更多的正向能量。</p>
+ <p>5.如何讓運動變習慣:先想用運動想要達到什麼樣的成果，然後再制定自己專屬的目標，但除了跑步之外，其實還有很多運動都可以去嘗試，例如有氧、無氧、室內、戶外的運動等，都是對身體有益的。也可以找尋喜歡運動的對象一起去運動，至少也不會有孤單的感覺，也可以一起討論運動的成效是如何。</p>
+
+<h2>看了這麼多運動的好處後，也要避免讓自己受到運動的傷害，應要做好許多的防護措施裝備，並保持良好的心情去感受運動，這樣才可以有效達到健康的效果。</h2>
+
+</body>
+</html>
